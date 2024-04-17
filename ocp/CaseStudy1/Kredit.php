@@ -6,4 +6,3 @@ class Kredit implements TipePembayaran {
         echo "Melakukan pembayaran dengan Kredit<br>";
     }
 }
-?>

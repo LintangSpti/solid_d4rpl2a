@@ -1,16 +1,14 @@
-<?php
-include ("VideoGroupManager.php");
+<?php 
+include_once "VideoGrupManager.php";
 
-class Whatsapp extends VideoGroupManager {
+class WhatsApp implements VideoGrupManager{
     public function chat(): void{
-        echo "chatting on whatsapp .\n";
+        echo "chat<br>";
     }
-    public function callGroupVideo(): void {
-        echo "calling group video on whatsapp .\n";    
+    public function sendPhotosAndVideos(): void{
+        echo "poto dan video terkirim<br>";
     }
-    public function sendPhotoVideo(): void
-    {
-        echo "sending photo and video on whatsapp .\n";
+    public function callGroupVideo(): void{
+        echo "call<br>";
     }
 }
-?>

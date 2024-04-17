@@ -1,6 +1,6 @@
-<?php
 
-abstract class KendaraanListrik{
-    abstract public function menggunakanBaterai(): void;
+<?php 
+interface KendaraanListrik{
+    public function menggunakanBaterai(): void;
 }
 ?>

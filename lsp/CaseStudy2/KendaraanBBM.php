@@ -1,6 +1,5 @@
-<?php
-
-abstract class KendaraanBBM{
-    abstract public function menggunakanBBM(): void;
+<?php 
+interface KendaraanBBM{
+    public function menggunakanBBM(): void;
 }
 ?>

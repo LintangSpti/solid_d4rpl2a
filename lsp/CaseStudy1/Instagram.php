@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 include_once "PostMediaManager.php";
 
 class Instagram implements PostMediaManager{
@@ -9,8 +8,7 @@ class Instagram implements PostMediaManager{
     public function publishPost(): void{
         echo "poto dan video terpublish<br>";
     }
-    public function sendPhotoVideo(): void{
+    public function sendPhotosAndVideos(): void{
         echo "call<br>";
     }
 }
-?>

@@ -6,4 +6,3 @@ class Cash implements TipePembayaran{
         echo "Melakukan pembayaran dengan Cash<br>";
     }
 }
-?>

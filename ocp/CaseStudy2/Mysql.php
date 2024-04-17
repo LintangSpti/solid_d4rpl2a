@@ -1,9 +1,7 @@
-<?php
-
+<?php 
 include_once "DBMS.php";
-class Mysql implements DBMS{
+class MySQL implements DBMS{
     public function createConnection(): void{
         echo "koneksi MySQL<br>";
     }
 }
-?>

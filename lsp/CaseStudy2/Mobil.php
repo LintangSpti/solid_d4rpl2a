@@ -1,9 +1,10 @@
-<?php
-include ("KendaraanBBM.php");
 
-class Mobil extends KendaraanBBM{
-    public function menggunakanBBM(): void {
-        echo "mobil menggunakan bahan bakar bensin/solar .\n";
+<?php 
+include_once "KendaraanBBM.php";
+
+class Mobil implements KendaraanBBM{
+    public function menggunakanBBM(): void{
+        echo "Menggunakan BBM<br>";
     }
 }
 ?>

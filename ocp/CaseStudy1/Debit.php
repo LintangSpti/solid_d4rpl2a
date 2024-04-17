@@ -1,3 +1,4 @@
+
 <?php 
 include_once "TipePembayaran.php";
 
@@ -6,4 +7,3 @@ class Debit implements TipePembayaran{
         echo "Melakukan pembayaran dengan Debit<br>";
     }
 }
-?>

@@ -1,8 +1,8 @@
 <?php 
-include_once "Mysql.php";
+include_once "MySQL.php";
 include_once "MongoDB.php";
 
-$dbms = new Mysql();
+$dbms = new MySQL();
 $dbms->createConnection();
 $dbms = new MongoDB();
 $dbms->createConnection();
